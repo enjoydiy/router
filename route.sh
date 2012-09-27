@@ -1,10 +1,10 @@
 #!/bin/bash
 cd /root/route
-linux = python chnroutes.py -p linux
+linux = 1 && python chnroutes.py -p linux
 zip -q -r linux.zip i*
-win = python chnroutes.py -p win
+win = 1 && python chnroutes.py -p win
 zip -q -r windows.zip v*
-openvpn = python chnroutes.py -p openvpn
+openvpn = 1 && python chnroutes.py -p openvpn
 zip -q -r openvpn.zip rou*
 git add linux.zip ip*
 git commit -m "routers for linux $linux `date +%Y-%m-%d`"
