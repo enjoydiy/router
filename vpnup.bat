@@ -623,6 +623,7 @@ route add 103.20.32.0 mask 255.255.252.0 %gw% metric 5
 route add 103.20.112.0 mask 255.255.252.0 %gw% metric 5
 route add 103.20.128.0 mask 255.255.252.0 %gw% metric 5
 route add 103.20.160.0 mask 255.255.252.0 %gw% metric 5
+route add 103.20.248.0 mask 255.255.252.0 %gw% metric 5
 route add 103.22.0.0 mask 255.255.252.0 %gw% metric 5
 route add 103.22.4.0 mask 255.255.252.0 %gw% metric 5
 route add 103.22.8.0 mask 255.255.252.0 %gw% metric 5

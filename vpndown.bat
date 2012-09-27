@@ -618,6 +618,7 @@ route delete 103.20.32.0
 route delete 103.20.112.0
 route delete 103.20.128.0
 route delete 103.20.160.0
+route delete 103.20.248.0
 route delete 103.22.0.0
 route delete 103.22.4.0
 route delete 103.22.8.0
