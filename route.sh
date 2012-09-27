@@ -1,0 +1,15 @@
+#!/bin/bash
+cd /root/route
+python chnroutes.py -p linux
+zip -q -r linux.zip i*
+python chnroutes.py -p win
+zip -q -r windows.zip v*
+python chnroutes.py -p openvpn
+zip -q -r openvpn.zip rou*
+git add linux.zip ip*
+git commit -m "routers for linux `date +%Y-%m-%d`"
+git add windows.zip vp*
+git commit -m "routes for windows `date +%Y-%m-%d`"
+git add openvpn.zip route*
+git commit -m "routes for openvpn `date +%Y-%m-%d`"
+git push origin master
